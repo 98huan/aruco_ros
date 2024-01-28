@@ -1,3 +1,19 @@
+# zh_readme
+<!-- 查看检测结果 -->
+rostopic echo /aruco_single/marker 
+<!-- 识别二维码比rviz高清的图片 -->
+rosrun image_view image_view image:=/aruco_single/result
+
+<!-- 启动识别二维码 -->
+roslaunch aruco_ros single.launch
+
+
+
+
+
+
+
+
 aruco_ros
 =========
 
